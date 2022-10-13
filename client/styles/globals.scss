@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+ul{
+  padding: 0 !important;
+}
+li{
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  margin: 0 !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+// @mixin small-list() {
+//   border: 1px black solid;
+//   max-width: fit-content;
+//   padding: 1em;
+//   ul {
+//     list-style: none;
+//     padding: 0 1em 0 0;
+//     max-height: 150px;
+//     overflow-y: scroll;
+//     li {
+//       text-align: left;
+//       cursor: pointer;
+//     }
+//   }
+// }
+// .station-selection-container{
+//   display: flex;
+// }
+// .my-new-list{
+//   min-height: 200px;
+//   max-height: 600px;
+//   max-width: 300px;
+//   padding: 1em 2em;
+// }
+// .connection-list{
+//   margin-right: 2em;
+//   ul{
+//     padding-left: 0 !important;
+//   }
+// }
+// .route-selection-container{
+//   padding-top: 1.5em;
+//   display: flex;
+// }
+// .ticket-create-screen{
+//   display: flex
+// }
+// form,
+// .station-list {
+//   @include small-list;
+// }
+// .station-section {
+//   display: flex;
+// }
+// .stations-column {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+.selected {
+  background-color: red;
+}
+
+// .stations-col {
+//   display: flex;
+//   flex-direction: column;
+//   text-align: center;
+//   .curr-station {
+//     border: 1px solid black;
+//   }
+//   .prev-next-stations {
+//     border: 1px solid black;
+//     display: flex;
+//     .next-stations {
+//       margin: 0 auto;
+//     }
+//     .prev-stations {
+//       margin: 0 auto;
+//     }
+//   }
+// }
+// .actions-col {
+//   display: flex;
+//   flex-direction: column;
+//   button {
+//     max-width: 100px;
+//   }
+// }
+
+// .station-update-section {
+//   display: flex;
+//   flex-direction: row;
+// }
+
+// .route-update-section{
+  
+// }
