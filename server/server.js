@@ -12,7 +12,7 @@ const csrfProtection = csrf({ cookie: true });
 // express app
 const app = express();
 
-//db
+//DB
 mongoose
   .connect(process.env.DATABASE, {
     useNewUrlParser: true,
