@@ -44,7 +44,7 @@ const getStart = (stationList) => {
 };
 
 const createNodes =()=> {
-  // TODO
+
   const node = {
     id: "1",
     type: "input",
@@ -71,7 +71,7 @@ function Map() {
   useEffect(()=>{
     if(!allStations) return
     const res = getStart(allStations)
-    console.log(res)
+
   },[allStations])
 
   return (
